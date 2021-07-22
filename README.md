@@ -1,4 +1,4 @@
-# EmuELEC-OGS-Godot-config
+# EmuELEC-OGS-Godot
 Pre-configured files to drop in your EmuELEC install to enable Godot games.
 
 ## Disclaimer
@@ -9,7 +9,7 @@ If you'd like to devellop your own game, you can see how I set things up in the 
 If you're a Godot dev looking to make your games run on another device, check out the <a href="https://github.com/efornara/frt">FRT export templates</a>.
 
 ## Instructions (If you're new to this)
-Simplest way to add files to your OGS is through and ftp client like <a href="https://filezilla-project.org/">Filezilla</a>.
+Simplest way to add files to your OGS is with an ftp client like <a href="https://filezilla-project.org/">Filezilla</a>.
 
 * Open Filezilla and connect to your OGS (default login, user: root password:emuelec)
 * Open the foler `place contents in '.config'` and move it's contents to `/storage/.config` on your OGS
@@ -19,9 +19,9 @@ Simplest way to add files to your OGS is through and ftp client like <a href="ht
 * right click the file `frt_100_332_arm64.bin`, choose 'set file permissions', enter value 777, press OK
 * Open the foler `place contents in 'roms'` and move it's contents to `/storage/roms` on your OGS
 
-You're done! Reboot your OGS and you'll see and Godot menu, in it should be a 'button tester' game. Run it to make sure everything works. If the game doesn't start, double check the file permissions. If you need assistance, come to the <a href="https://forum.odroid.com/viewtopic.php?f=193&t=39708&sid=45e9324b1ef05e4651f6a79924689f34">Hardkernel Forums</a>.
+You're done! Reboot your OGS and you'll see a Godot menu, in you'll find <b>OGS Button Tester</b>. Run it to make sure everything works. If the game doesn't start, double check the file permissions. If you need assistance, come to the <a href="https://forum.odroid.com/viewtopic.php?f=193&t=39708&sid=45e9324b1ef05e4651f6a79924689f34">Hardkernel Forums</a>.
 
-If you have more Godot games to add you can add them like your other roms, in the `/roms/godot` folder.
+If you have more Godot games. You can add them like your other roms, in the `/roms/godot` folder. Games have to be made for the OGS or they won't work.
 
 ## Instructions (experienced user)
 Installation is pretty straightforward. Add a new system to es_systems.cfg
