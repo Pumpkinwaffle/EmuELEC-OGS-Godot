@@ -4,7 +4,7 @@ Pre-configured files to drop in your EmuELEC install to enable Godot games.
 ## Disclaimer
 This will only work on the <a href="https://www.hardkernel.com/shop/odroid-go-super-clear-white/">Odroid Go Super</a> running <a href="https://github.com/EmuELEC/EmuELEC">EmuELEC</a>. 
 
-If you'd like to devellop your own game, you can see how I set things up in the <a href="https://github.com/Pumpkinwaffle/OGS-Button-Tester">OGS-Button-Tester</a>. I'll upload pre configured project template soon.
+If you'd like to devellop your own game, you can see how I set things up in the <a href="https://github.com/Pumpkinwaffle/OGS-Button-Tester">OGS-Button-Tester</a>. I'll upload a pre-configured project template soon.
 
 If you're a Godot dev looking to make your games run on another device, check out the <a href="https://github.com/efornara/frt">FRT export templates</a>.
 
