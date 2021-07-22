@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./OGS button tester.pck</path>
+		<name>OGS button tester</name>
+		<desc>A simple way to check your buttons. Use the Godot project as reference to set your inputs.</desc>
+		<thumbnail>./images/Button_Tester-thumb.png</thumbnail>
+		<playcount>0</playcount>
+		<lastplayed>20210722T054726</lastplayed>
+		<gametime>6925</gametime>
+		<lang>en</lang>
+	</game>
+</gameList>
